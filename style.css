@@ -2,6 +2,10 @@
     --border-color: black;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 html{
     background-color: black;
 }
@@ -15,7 +19,7 @@ body{
 
 }
 
-/* --------------.general-styling------------- */
+/* --------------.alignment-styling------------- */
 header,
 .details-section,
 footer{
@@ -25,12 +29,18 @@ footer{
     justify-content: space-between;
 }
 
-.picture-section,
+
+
+/* --------------.border-styling------------- */
 .about-div,
 .contact-details-div,
 .education-section,
 .skills-section {
     border-right: 1px solid var(--border-color);
+}
+
+.name-section {
+    border-left: 1px solid var(--border-color);
 }
 
 header,
@@ -42,6 +52,52 @@ header,
 .section-header.experience{
     border-top: 1px solid var(--border-color);
 }
+
+
+
+/* --------------.general-margins-styling------------- */
+.details-section,
+footer,
+.section-header.experience {
+    margin-top: 1.5rem;
+}
+
+
+
+
+/* --------------.general-padding-styling------------- */
+body{
+    padding: 2.5rem;
+}
+
+.about-div,
+.contact-details-div,
+.education-section,
+.skills-section{
+    padding-right: 2rem;
+}
+
+.contact-details-div,
+.skills-section,
+.awards-section ,
+.name-section{
+    padding-left: 2rem;
+}
+
+.section-header.experience,
+.name-section{
+    padding-top: .5rem;
+}
+
+.experience-section>.section-body,
+.section-header.experience {
+    padding-bottom: .5rem;
+}
+
+header {
+    padding-bottom: 1.5rem;
+}
+
 
 
 
@@ -63,7 +119,8 @@ header{
 
 
 /* --------------.details-section------------- */
-.details-section > div{
+.details-section > div,
+footer > section{
     width: 33%;
 }
 .social-links-row img{
