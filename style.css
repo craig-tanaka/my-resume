@@ -62,6 +62,23 @@ footer,
     margin-top: 1.5rem;
 }
 
+.full-name,
+.section-header,
+.award-title,
+p{
+    margin: 0;
+}
+
+.education-name,
+.experience-header{
+    margin-bottom: 0;
+}
+
+.single-experience-container,
+.single-award-container {
+    margin-top: 1rem;
+}
+
 
 
 
@@ -121,6 +138,10 @@ header {
     font-size: 2rem;
 }
 
+.last-name {
+    letter-spacing: 4px;
+    margin-top: -10px;
+}
 
 
 
