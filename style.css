@@ -101,6 +101,29 @@ header {
 
 
 
+/* --------------.font-styling------------- */
+.full-name,
+.section-header,
+.experience-header ,
+.education-name ,
+.award-title {
+    font-family: 'Roboto Slab',
+    serif;
+}
+
+.full-name{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.section-header{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+
+
+
 /* --------------.header-section------------- */
 header{
     justify-content: left;
