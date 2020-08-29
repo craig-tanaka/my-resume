@@ -1,0 +1,71 @@
+:root{
+    --border-color: black;
+}
+
+html{
+    background-color: black;
+}
+
+body{
+    padding: 1rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(235, 214, 160);
+
+}
+
+/* --------------.general-styling------------- */
+header,
+.details-section,
+footer{
+    display: flex;
+    /* align-items: center; */
+    width: 100%;
+    justify-content: space-between;
+}
+
+.picture-section,
+.about-div,
+.contact-details-div,
+.education-section,
+.skills-section {
+    border-right: 1px solid var(--border-color);
+}
+
+header,
+.section-header.experience,
+.experience-section > .section-body{
+    border-bottom: 1px solid var(--border-color);
+}
+
+.section-header.experience{
+    border-top: 1px solid var(--border-color);
+}
+
+
+
+/* --------------.header-section------------- */
+header{
+    justify-content: left;
+}
+
+.picture-section{
+    width: 33%;
+}
+
+.my-picture{
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 50%;
+}
+
+
+
+/* --------------.details-section------------- */
+.details-section > div{
+    width: 33%;
+}
+.social-links-row img{
+    width: 1.5rem;
+}
