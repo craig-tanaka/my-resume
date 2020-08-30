@@ -18,6 +18,10 @@ body{
     margin-right: auto;
     background-color: rgb(235, 214, 160);
 
+    font-family: 'Exo',
+    sans-serif;
+    font-size: 14px;
+
 }
 
 ul{
