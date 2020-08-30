@@ -209,3 +209,19 @@ footer > section{
     color: var(--color-primary);
 }
 
+
+
+
+
+/* --------------.expertise-section------------- */
+.expertise-list > li{
+    margin-top: 1rem;
+}
+
+
+
+
+/* --------------.skills-section------------- */
+.skills-list>li {
+    margin-top: 1rem;
+}
