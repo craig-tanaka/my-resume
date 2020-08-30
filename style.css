@@ -84,9 +84,29 @@ p{
     margin-bottom: 0;
 }
 
-.single-experience-container,
+.single-experience-container{
+    margin-top: 1.5rem;
+}
+
+.single-education-container:last-of-type {
+    margin-top: 2.5rem;
+}
+
 .single-award-container {
     margin-top: 1rem;
+}
+
+.expertise-list>li,
+.skills-list>li {
+    margin-top: 1rem;
+}
+
+.experience-header-subtitle{
+    margin-top: .1rem;
+}
+
+.experience-description {
+    margin-top: .25rem;
 }
 
 
@@ -117,9 +137,12 @@ body{
     padding-top: .5rem;
 }
 
-.experience-section>.section-body,
 .section-header.experience {
     padding-bottom: .5rem;
+}
+
+.experience-section>.section-body{
+    padding-bottom: 1.5rem;
 }
 
 header {
@@ -154,21 +177,31 @@ header {
     margin-top: -10px;
 }
 
+.job-title{
+    font-size: 2rem;
+}
+
 .about-div{
     text-align : justify;
 }
 
 .detail-title{
-    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
 }
 
 .detail-detail,
 .social-link-link {
-    font-size: .9rem;
+    font-size: .85rem;
 }
 
-.social-link-link{
-    font-size : .8.5rem;
+.education-institute,
+.award-institute{
+    font-style: italic;
+}
+
+.experience-header-subtitle{
+    font-size: .85rem;
+    font-style: italic;
 }
 
 
@@ -215,27 +248,4 @@ footer > section{
 .social-link-link{
     text-decoration: none;
     color: var(--color-primary);
-}
-
-
-
-/* --------------.expertise-section------------- */
-.expertise-list > li{
-    margin-top: 1rem;
-}
-
-
-
-
-/* --------------.skills-section------------- */
-.skills-list>li {
-    margin-top: 1rem;
-}
-
-
-
-
-/* --------------.experience-section------------- */
-.experience-description {
-    /* margin-top: .4rem; */
 }
