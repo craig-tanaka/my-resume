@@ -192,6 +192,10 @@ footer > section{
     width: 33%;
 }
 
+.detail-row{
+    margin-top: .4rem;
+}
+
 .social-links-row{
     display: flex;
     justify-content: start;
@@ -211,8 +215,6 @@ footer > section{
 
 
 
-
-
 /* --------------.expertise-section------------- */
 .expertise-list > li{
     margin-top: 1rem;
@@ -224,4 +226,12 @@ footer > section{
 /* --------------.skills-section------------- */
 .skills-list>li {
     margin-top: 1rem;
+}
+
+
+
+
+/* --------------.experience-section------------- */
+.experience-description {
+    /* margin-top: .4rem; */
 }
