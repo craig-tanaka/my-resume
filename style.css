@@ -110,12 +110,18 @@ p{
     margin-top: .25rem;
 }
 
+body{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 
 
 
 /* --------------.general-padding-styling------------- */
 body{
     padding: 2.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .about-div,
