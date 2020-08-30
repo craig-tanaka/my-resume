@@ -1,5 +1,6 @@
 :root{
     --border-color: black;
+    --color-primary: black;
 }
 
 *{
@@ -190,6 +191,21 @@ header{
 footer > section{
     width: 33%;
 }
+
+.social-links-row{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: .4rem;
+}
+
 .social-links-row img{
     width: 1.5rem;
+    margin-right: .4rem;
 }
+
+.social-link-link{
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
