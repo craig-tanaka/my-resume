@@ -1,3 +1,4 @@
+/* #region Core Styling */
 :root{
     --border-color: black;
     --color-primary: black;
@@ -256,3 +257,17 @@ footer > section{
     text-decoration: none;
     color: var(--color-primary);
 }
+/* #endregion Core Styling */
+
+/* #region CV Page Specific Styling */
+.cv-page .name-section{
+    border-left: none;
+    width: 100%
+}
+.cv-page .full-name{
+    text-align: center;
+}
+.cv-page body{
+    padding-top: 0.5rem;
+}
+/* #endregion CV Page Specific Styling */
