@@ -109,6 +109,7 @@ p{
 
 .experience-description {
     margin-top: .25rem;
+    line-height: 2;
 }
 
 body{
@@ -260,6 +261,11 @@ footer > section{
 /* #endregion Core Styling */
 
 /* #region CV Page Specific Styling */
+.cv-page body {
+    padding-top: 0.5rem;
+}
+
+/* Top Name Section */
 .cv-page .name-section{
     border-left: none;
     width: 100%
@@ -267,17 +273,51 @@ footer > section{
 .cv-page .full-name{
     text-align: center;
 }
-.cv-page body{
-    padding-top: 0.5rem;
-}
+
+/* Contact Details Div */
 .cv-page .contact-details-div {
     padding-left: 0;
     padding-right: 1rem;
     width: 29%;
 }
+.cv-page .contact-details-div .section-body {
+    margin-top: 1rem;
+}
+.cv-page .contact-details-div .detail-row {
+    margin-top: 0.6rem;
+}
+.cv-page .contact-details-div .social-links-row {
+    margin-top: 1.2rem;
+}
+
+
+/* About-div */
 .cv-page .about-div{
     padding-left:1rem;
     padding-right: 1rem;
     width: 37%;
 }
+.cv-page .about-div .section-paragraph {
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+/* Education Section */
+.cv-page .education-section {
+    padding-right: 1rem;
+    width: 31%;
+}
+
+/* Technical Skills Section */
+.cv-page .skills-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 35%;
+}
+
+/* Awards Section */
+.cv-page .awards-section {
+    padding-left: 1rem;
+}
+
 /* #endregion CV Page Specific Styling */
