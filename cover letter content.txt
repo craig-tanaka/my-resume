@@ -1,0 +1,13 @@
+My name is Craig Mudzingwa, and I am a web developer specializing in developing modern, sleek and professional WordPress sites. For the past three years, I have worked as a remote developer for a Namibian Company (Divine Graphix & Web Designs), where we mainly built websites for small to medium enterprises in Namibia. Over the past years, I've learned how to design more elegant and eye-catching designs while still being able to tone it down so that the site is still professional and presentable for a company.
+_______________________________________________________________________________________
+
+Typically I will start by sketching a few design mockups to get a feel of how I want the content to be displayed, although, on other projects, these are provided. With the design mock-ups, I will start entering the site content, text, and images into particular Elementor blocks and sections based on the layout designed in the mock-ups. After all the site data (text, images, posts, pages) is entered, I will go through tweaking the styles on individual Elementor sections, posts, and pages making sure the style is polished and consistent across the whole site.
+________________________________________________________________________________________
+As a freelancer, I prefer building sites in the native web technologies (HTML, CSS & JS) that are sleek, modern, and feature-rich in just those technologies, something that I think has become a lost art in today's world of frameworks.
+________________________________________________________________________________________
+http://craig-tanaka.web.app/
+http://tulipohambatraining.edu.na/
+https://nnca.divine-graphix.com/
+http://kalahariholdings.com/
+https://lets-go-digital.web.app/
+https://tsulizasafaris.com/
