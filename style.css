@@ -270,4 +270,9 @@ footer > section{
 .cv-page body{
     padding-top: 0.5rem;
 }
+.cv-page .contact-details-div {
+    padding-left: 0;
+    /* padding-right: 2rem; */
+    width: 31%;
+}
 /* #endregion CV Page Specific Styling */
